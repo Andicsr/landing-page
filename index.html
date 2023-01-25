@@ -4,54 +4,62 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
 		<title>Document</title>
 	</head>
 	<body>
 		<div class="header-introduction">
 			<div class="logo-links">
-				<p class="logo">DAZECORE</p>
-				<p class="link1">Buy now</p>
-				<p class="link2">Quote</p>
-				<p class="link3">Sign up</p>
+				<div class="logo">
+					<p class="logo">DAZECORE</p>
+				</div>
+				<div class="links">
+					<a class="link1" href="#watches-models">Buy</a>
+					<a class="link2" href="#why-dazecore">Why us</a>
+					<a class="link3" href="#sign-up">Sign up</a>
+				</div>
 			</div>
 			<div class="presentation">
 				<div>
 					<h1>Dazecore watches</h1>
 					<p>Dazecore watches are created with scrupulous care so that you have the best quality in your hands. </p>
-					<button>Buy now</button>
+					<button id="buy-now" type="button">Buy now</button>
 				</div>
 				<div>
-					<img src="images/dazecore.jpg" alt="black watch">
+					<img class="image" src="images/dazecore.jpg" alt="black watch">
 				</div>
 			</div>
 		</div>
-		<div class="watches-models">
+		<div id="watches-models">
 			<section>Our models</section>
 			<div class="models">
 				<div class="model1">
-					<img src="images/model1.jpg" alt="model DZC-MASTER II on a black background">
+					<img class="image" src="images/model1.jpg" alt="model DZC-MASTER II on a black background">
 					<p>DZC-MASTER II</p>
 				</div>
 				<div class="model2">
-					<img src="images/model2.jpg" alt="model DZC-SUBMARINER on a black background">
+					<img class="image" src="images/model2.jpg" alt="model DZC-SUBMARINER on a black background">
 					<p>DZC-SUBMARINER</p>
 				</div>
 				<div class="model3">
-					<img src="images/model3.jpg" alt="model DZC-EXPLORER on the rocks">
+					<img class="image" src="images/model3.jpg" alt="model DZC-EXPLORER on the rocks">
 					<p>DZC-EXPLORER</p> 
 				</div>
 			</div>
 		</div>	
-		<div class="why-dazecore">
+		<div id="why-dazecore">
 			<h3>Why choose us?</h3>
 			<p>Dazecore watches are designed and created to last by dedicated watchmakers, designers and engineers whose skills and knowledge are transferred to each and every Dazecore watch. Dazecore is proud to present the work of these extraordinary specialists.</p>
 		</div>
-		<div class="sign-up">
+		<div id="sign-up">
 			<div>
-				<h6>Keep it updated with Dazecore news</h6>
+				<h3>Keep it updated with Dazecore news</h3>
 				<p>Sign up for the latest information right now</p>
 			</div>
-			<button>Sign up</button>
+			<button class="sign-up" type="button">Sign up</button>
 		</div>
 		<div class="footer">
 			Webpage by andicsr
