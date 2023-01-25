@@ -27,6 +27,16 @@ body {
     margin-right: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #3882F6;
+    font-size: 15px;
+}
+
 .presentation {
     display: flex;
     gap: 60px;
@@ -40,7 +50,7 @@ body {
     border: none;
 }
 
-.watches-models {
+#watches-models {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,12 +75,12 @@ section {
     border-radius: 6px;
 }
 
-.why-dazecore {
+#why-dazecore {
     background-color: #E5E7EB;
     padding: 40px 300px;
 }
 
-.sign-up {
+#sign-up {
     background-color: #3882F6;
     width: 700px;
     display: flex;
@@ -87,7 +97,7 @@ button {
     border-radius: 6px;
 }
 
-#sign-up {
+.sign-up {
     background-color: #3882F6;
     border: 1px solid white;
     color: white;
